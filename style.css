@@ -1,0 +1,86 @@
+@font-face {
+    font-family: TRON;
+    src: url(../backup/FONTS/tron/Tron-JOAa.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("./img/fundo.jpg"); 
+    background-repeat:no-repeat; 
+    background-size: cover;
+    background-attachment:fixed;
+    }
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 ;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+ 
+}
+
+.logo li{
+    display: inline-block;
+    margin:  0 20px;
+    
+}
+.logo li a{
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 10px;
+   
+}
+
+.menu li{
+    display: inline-block;
+    margin:  0 20px;
+    text-shadow: 0 0 0.125em rgb(255, 255, 255), 0 0 0.25em currentColor;
+}
+.menu li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 10px;
+
+}
+.menu li a:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+
+.text{
+    font-family: TRON;
+    font-size: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style:unset;
+    text-align: center;
+    margin: auto;
+    padding: 200px;
+    color: #ffffff;
+    
+    text-shadow: 0 0 0.125em rgb(255, 255, 255), 0 0 0.25em currentColor;
+  
+    
+}
+
+.synopsis{
+    color: #ffffff;
+}
